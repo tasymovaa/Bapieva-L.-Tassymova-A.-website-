@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> VIEL </title>
+      <link rel="icon" type="image/x-icon" href="images/fav-icon11.png">
+</head>
+<body>
+    <style>
+
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>VIEL</title>
+</head>
+
+<script src = "ss.js"></script>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">VIEL</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">The best of 2021</li>
+                    <style>
+                    a{
+                      color: gray;
+                     text-decoration: none
+                   }
+                    </style>
+                    <a href = "page2.html"><p>About Us</p></a>
+
+                  </ul>
+              </div>
+              <div class="profile-container">
+                  <img class="profile-picture" src="images/image.profile.jpg" alt="">
+                  <div class="profile-text-container">
+                      <span class="profile-text">Profile</span>
+                      <i class="fas fa-caret-down"></i>
+                  </div>
+                  <div class="toggle">
+                      <i class="fas fa-moon toggle-icon"></i>
+                      <i class="fas fa-sun toggle-icon"></i>
+                      <div class="toggle-ball"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('images/background4.jpg');">
+                <p class="featured-desc">Welcome to VIEL website!  Here you can choose a suitable movie for every taste.  Also, if you are thinking about what kind of movie to watch, we advise you to watch the trailer first, for the final choice.
+
+We wish you a pleasant viewing!
+
+</p>
+                   <a href="" class="btn btn-primary">Sincerely, VIEL developers.</a>
+
+
+                 <div>
+<iframe width="300" height="50" frameBorder="0" src="http://www.moviesoundclips.net/embed.php?id=882caf460724a9b8999dab617c0f5fd0" style="overflow-y: hidden;border:0px;" scrolling="no" seamless="seamless"></iframe>
+</div>
+
+
+<div class="text-block"> * </div>
+<div>
+<p>Do you want to be among the first to know about new products? Enter name and email in the fields, then click "Submit" to submit the form:</p>
+
+<p>Press a key inside the text field to set a green background color.</p>
+
+Enter your email: <input type="text" id="demo">
+<input type="button" onclick="myFunction()" value="Submit">
+
+<script>
+document.getElementById("demo").addEventListener("keypress", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").style.backgroundColor = "green";
+}
+</script>
+</div>
+
+
+<script>
+
+
+
+
+
+
+
+
+                const ball = document.querySelector(".toggle-ball");
+                const items = document.querySelectorAll(
+                  ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle"
+                );
+
+
+
+
+                ball.addEventListener("click",()=>{
+                  items.forEach(item=>{
+                    item.classList.toggle("active")
+                  })
+                });
+
+               </script>
+</body>
+</html>

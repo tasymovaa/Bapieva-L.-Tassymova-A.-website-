@@ -1,0 +1,512 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/fav-icon11.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>VIEL</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">VIEL</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <style>
+                    a{
+                      color: gray;
+                     text-decoration: none
+                   }
+                    </style>
+
+                    <a href = "page3.html"><p>Movies</p></a>
+
+                    <li class="menu-list-item">The best of 2021</li>
+                    <style>
+                    a{
+                      color: gray;
+                     text-decoration: none
+                   }
+                    </style>
+                    <a href = "page2.html"><p>About Us</p></a>
+                    <button type="button" class="btn btn-primary position-relative">
+  Входящие
+  <span class="position-absolute top-0 start-50 translate-small badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">непрочитанные сообщения</span>
+  </span>
+</button>
+                  </ul>
+              </div>
+              <div class="profile-container">
+                  <img class="profile-picture" src="images/image.profile.jpg" alt="">
+                  <div class="profile-text-container">
+                      <span class="profile-text">Profile</span>
+                      <i class="fas fa-caret-down"></i>
+                  </div>
+                  <div class="toggle">
+                      <i class="fas fa-moon toggle-icon"></i>
+                      <i class="fas fa-sun toggle-icon"></i>
+                      <div class="toggle-ball"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #000000), url('images/nowayhome1.jpg');">
+                <p class="featured-desc">Coming soon on our website!</p>
+                   <a href="https://youtu.be/JfVOs4VSpmA" class="btn btn-primary">Watch trailer now</a>
+
+            </div>
+
+            <div class="movie-list-container">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+            <style>
+
+             </style>
+
+
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+             <style>
+             body {font-family: Arial, Helvetica, sans-serif;}
+
+             /* Full-width input fields */
+             input[type=text], input[type=password] {
+               width: 100%;
+               padding: 12px 20px;
+               margin: 8px 0;
+               display: inline-block;
+               border: 1px solid #ccc;
+               box-sizing: border-box;
+             }
+
+             /* Set a style for all buttons */
+             button {
+               background-color: #04AA6D;
+               color: white;
+               padding: 14px 20px;
+               margin: 8px 0;
+               border: none;
+               cursor: pointer;
+               width: 100%;
+             }
+
+             button:hover {
+               opacity: 0.8;
+             }
+
+             /* Extra styles for the cancel button */
+             .cancelbtn {
+               width: auto;
+               padding: 10px 18px;
+               background-color: #f44336;
+             }
+
+             /* Center the image and position the close button */
+             .imgcontainer {
+               text-align: center;
+               margin: 24px 0 12px 0;
+               position: relative;
+             }
+
+             img.avatar {
+               width: 40%;
+               border-radius: 50%;
+             }
+
+             .container {
+               padding: 16px;
+             }
+
+             span.psw {
+               float: right;
+               padding-top: 16px;
+             }
+
+             /* The Modal (background) */
+             .modal {
+               display: none; /* Hidden by default */
+               position: fixed; /* Stay in place */
+               z-index: 1; /* Sit on top */
+               left: 0;
+               top: 0;
+               width: 100%; /* Full width */
+               height: 100%; /* Full height */
+               overflow: auto; /* Enable scroll if needed */
+               background-color: rgb(0,0,0); /* Fallback color */
+               background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+               padding-top: 60px;
+             }
+
+             /* Modal Content/Box */
+             .modal-content {
+               background-color: #fefefe;
+               margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+               border: 1px solid #888;
+               width: 80%; /* Could be more or less, depending on screen size */
+             }
+
+             /* The Close Button (x) */
+             .close {
+               position: absolute;
+               right: 25px;
+               top: 0;
+               color: #000;
+               font-size: 35px;
+               font-weight: bold;
+             }
+
+             .close:hover,
+             .close:focus {
+               color: red;
+               cursor: pointer;
+             }
+
+             /* Add Zoom Animation */
+             .animate {
+               -webkit-animation: animatezoom 0.6s;
+               animation: animatezoom 0.6s
+             }
+
+             @-webkit-keyframes animatezoom {
+               from {-webkit-transform: scale(0)}
+               to {-webkit-transform: scale(1)}
+             }
+
+             @keyframes animatezoom {
+               from {transform: scale(0)}
+               to {transform: scale(1)}
+             }
+
+             /* Change styles for span and cancel button on extra small screens */
+             @media screen and (max-width: 300px) {
+               span.psw {
+                  display: block;
+                  float: none;
+               }
+               .cancelbtn {
+                  width: 100%;
+               }
+             }
+             </style>
+             </head>
+             <body>
+
+             <h2>Modal Login Form</h2>
+
+             <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+             <div id="id01" class="modal">
+
+               <form class="modal-content animate" action="/action_page.php" method="post">
+                 <div class="imgcontainer">
+                   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                   <img src="images/image.profile.jpg" alt="Avatar" class="avatar">
+                 </div>
+
+                 <div class="container">
+                   <label for="uname"><b>Username</b></label>
+                   <input type="text" placeholder="Enter Username" name="uname" required>
+
+                   <label for="psw"><b>Password</b></label>
+                   <input type="password" placeholder="Enter Password" name="psw" required>
+
+                   <button type="submit">Login</button>
+                   <label>
+                     <input type="checkbox" checked="checked" name="remember"> Remember me
+                   </label>
+                 </div>
+
+                 <div class="container" style="background-color:#f1f1f1">
+                   <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                   <span class="psw">Forgot <a href="#">password?</a></span>
+                 </div>
+               </form>
+             </div>
+
+             <script>
+             // Get the modal
+             var modal = document.getElementById('id01');
+
+             // When the user clicks anywhere outside of the modal, close it
+             window.onclick = function(event) {
+                 if (event.target == modal) {
+                     modal.style.display = "none";
+                 }
+             }
+             </script>
+
+
+  <div class="movie-list-container">
+                  <h1 onmouseover="style.color='green'" onmouseout="style.color='white'" class="movie-list-title">Cartoons</h1>
+                  <div class="movie-list-wrapper">
+                    <p>Click on the icon to toggle between thumbs-up and thumbs-down (like/dislike):</p>
+                    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                                 <div class="movie-list-wrapper">
+                                 <div class="movie-list">
+                          <div class="movie-list-item">
+                              <img class="movie-list-item-img" src="http://pm1.narvii.com/7253/306c7afcc7c81c35fbef2837ade3452b4ba498ebr1-1175-1767v2_uhq.jpg" class="card-img-top" alt="">
+                              <span class="movie-list-item-title">Frozen</span>
+                              <p class="movie-list-item-desc">Disney's mega-cash hit ($1.28 billion) about the snow queen Elsa, her sister Anna, her friend Christoph, and the merry pets Sven the reindeer and Olaf the snowman. </p>
+                              <button class="movie-list-item-button">Watch</button>
+  <a href="https://youtu.be/TbQm5doF_Uc" class="movie-list-item-button">Watch trailer now</a>
+                          </div>
+                          <div class="movie-list-item">
+                              <img class="movie-list-item-img" src="https://www.kanonus.com/wp-content/uploads/2021/04/ZvRzPSf_-RZujRQtCqsz0XJ0ULFAen9TspPul7KT7pc-2.jpg" class="card-img-top" alt="">
+                              <span class="movie-list-item-title">Soul</span>
+                              <p class="movie-list-item-desc">Joe Gardner, an elderly high school music teacher, has dreamed all his life of performing on stage as part of a jazz ensemble.</p>
+                              <a href="https://youtu.be/TbQm5doF_Uc" button class="movie-list-item-button">Watch</a></button>
+  <a href="https://youtu.be/xOsLIiBStEs" class="movie-list-item-button">Watch trailer now</a>
+                          </div>
+                          <div class="movie-list-item">
+                              <img class="movie-list-item-img" src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/821829b2228b63f958bd2bc90d5aac15ab7c352d19b34fcc3569a6e8e08ede09._RI_V_TTW_.jpg" alt="">
+                              <span class="movie-list-item-title">The Boss Baby</span>
+                              <p class="movie-list-item-desc">The seven-year-old fantasist Tima is jealous of his parents' newly arrived brother.</p>
+                              <a href="https://youtu.be/k397HRbTtWI" class="movie-list-item-button">Watch trailer now</a>
+
+                          </div>
+                          <div class="movie-list-item">
+                              <img class="movie-list-item-img" src="https://is1-ssl.mzstatic.com/image/thumb/Features49/v4/2a/c1/5d/2ac15d9d-77d9-339e-afd6-5231b52d1d27/source/1200x630fa.png" alt="">
+                              <span class="movie-list-item-title">Zootopia</span>
+                              <p class="movie-list-item-desc">Welcome to Zootopia, a modern city populated by all kinds of animals, from giant elephants to tiny mice.</p>
+                              <a href="https://youtu.be/yCOPJi0Urq4" class="movie-list-item-button">Watch trailer now</a>
+            </div>
+                          <div class="movie-list-item">
+                              <img class="movie-list-item-img" src="https://insideout2015animation.files.wordpress.com/2015/07/inside-out-18.jpg" alt="">
+                              <span class="movie-list-item-title">Inside out</span>
+                              <p class="movie-list-item-desc">Growing up can be a bumpy road, and it’s no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco.</p>
+                             <a href="https://youtu.be/yRUAzGQ3nSY" class="movie-list-item-button">Watch trailer now</a>
+          </div>
+                          <div class="movie-list-item">
+                              <img class="movie-list-item-img" src="https://pbs.twimg.com/media/Eb2J1vIXkAEyuAV.jpg" alt="">
+                              <span class="movie-list-item-title">Titanic</span>
+                              <p class="movie-list-item-desc">On the first and last voyageof the posh Titanic, two people meet.</p>
+                            <a href="https://youtu.be/xOsLIiBStEs" class="movie-list-item-button">Watch trailer now</a>
+                       </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/" alt="">
+                            <span class="movie-list-item-title">Garfield</span>
+                            <p class="movie-list-item-desc">.</p>
+                            <button class="movie-list-item-button">Watch trailer now</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 onmouseover="style.color='green'" onmouseout="style.color='white'" class="movie-list-title">Romance</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://media1.popsugar-assets.com/files/thumbor/7CwCuGAKxTrQ4wPyOBpKjSsd1JI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/04/19/743/n/41542884/5429b59c8e78fbc4_MCDTITA_FE014_H_1_.JPG" alt="">
+                            <span class="movie-list-item-title">Titanic</span>
+                            <p class="movie-list-item-desc">On the first and last voyage of the posh Titanic, two people meet.</p>
+                            <a href="https://youtu.be/kVrqfYjkTdQ" class="movie-list-item-button">Watch trailer now</a>
+                          </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://upload.wikimedia.org/wikipedia/en/0/03/Prideandprejudiceposter.jpg" alt="">
+                            <span class="movie-list-item-title">Pride and Prejudice</span>
+                            <p class="movie-list-item-desc">The Bennetts faced serious problems. The 18th-century English countryside was dull, but it was not this fact that troubled the couple.</p>
+                            <a href="https://youtu.be/1dYv5u6v55Y" class="movie-list-item-button">Watch trailer now</a>
+         </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/07/twilight-movies-in-order.jpg?q=50&fit=contain&w=943&h=472&dpr=1.5" alt="">
+                            <span class="movie-list-item-title">Twilight</span>
+                            <p class="movie-list-item-desc">Bella is a seventeen-year-old girl who decides to move in with her father in Forks.</p>
+                            <a href="https://youtu.be/uxjNDE2fMjI" class="movie-list-item-button">Watch trailer now</a>
+                     </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://cinemusefilms.files.wordpress.com/2016/06/87-me-before-you.jpg" alt="">
+                            <span class="movie-list-item-title">Me before you</span>
+                            <p class="movie-list-item-desc">The storyline is simple. Working class girl Louisa Clark (Emilia Clarke) takes a six-month contract to be a carer for quadriplegic Will Traynor (Sam Claflin)</p>
+                           <a href="https://youtu.be/Eh993__rOxA" class="movie-list-item-button">Watch trailer now</a>
+          </div>
+                        <div class="movie-list-item">
+                          <img class="movie-list-item-img" src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vbWVkaWEucmJsLm1zL2ltYWdlP3U9JTJGZmlsZXMlMkYyMDE1JTJGMTAlMkYxNyUyRjYzNTgwNjc3NjYzNDUwMzAzNy0yOTYyODIwODlfODElMkJGdkVCcDBpTC5fU0wxNDIzXy5qcGcmaG89aHR0cCUzQSUyRiUyRmNkbjEudGhlb2R5c3NleW9ubGluZS5jb20mcz0yOTcmaD0xOGEzOWFmZWI0MmFjYWU5ODYwNjQ4ZjMzNzM1ODk5MDgzZTlmMTIxYzBiOGNhM2UwMzc4NTAxNzhkM2M3ODZjJnNpemU9OTgweCZjPTI0NjQyMDM4MzUiLCJleHBpcmVzX2F0IjoxNjk5MzcwODYxfQ.B6cDJGYqE_QEgYxzZD_E-ztkr6Hngngzt-ZB971xDUk/img.jpg?width=1200&height=628" alt="">
+                            <span class="movie-list-item-title">About time</span>
+                            <p class="movie-list-item-desc">im (Domhnall Gleeson) plays a 20-something wannabe lawyer living in London who is incredibly awkward yet adorably sweet (and ginger). </p>
+                            <a href="https://youtu.be/T7A810duHvw" class="movie-list-item-button">Watch trailer now</a>
+     </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/" alt="">
+                            <span class="movie-list-item-title">Me before you</span>
+                            <p class="movie-list-item-desc">The storyline is simple. Working class girl Louisa Clark (Emilia Clarke) takes a six-month contract to be a carer for quadriplegic Will Traynor (Sam Claflin)</p>
+                            <button class="movie-list-item-button">Watch trailer now</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/" alt="">
+                            <span class="movie-list-item-title">Twilight</span>
+                            <p class="movie-list-item-desc">Bella is a seventeen-year-old girl who decides to move in with her father in Forks.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+<p class="featured-desc"></p>
+
+
+
+
+            <div class="movie-list-container">
+                <h1 onmouseover="style.color='green'" onmouseout="style.color='white'" class="movie-list-title">Comedy</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://static.okko.tv/images/v2/17443646" alt="">
+                            <span class="movie-list-item-title">Garfield</span>
+                            <p class="movie-list-item-desc">The fat and lazy ginger cat has nothing to worry about in the future.</p>
+                            <a href="https://youtu.be/GV5y4yTDtBI" class="movie-list-item-button">Watch trailer now</a>
+           </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BNDhiOTZkOGQtODcxYi00YTBiLTg4NzItZDU5NDQzOTg0MThlXkEyXkFqcGdeQXVyNzU4Njg1MzU@._V1_.jpg" alt="">
+                            <span class="movie-list-item-title">Kazakh Business</span>
+                            <p class="movie-list-item-desc">Zhomart is an ordinary businessman who owns a hotel and soon has a new turnover and new breath in his business - a big investor is interested in his project.</p>
+                           <a href="https://youtu.be/HE1kTDcKjyQ" class="movie-list-item-button">Watch trailer now</a>
+               </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://www.pommpoire.fr/blog/wp-content/uploads/2018/07/film-body-positive-i-feel-pretty.jpg" alt="">
+                            <span class="movie-list-item-title">I feel pretty</span>
+                            <p class="movie-list-item-desc">Renee Bennett is a young girl who does not have perfect forms, which affects her personal life.</p>
+                            <a href="https://youtu.be/cVx9EFK3DWE" class="movie-list-item-button">Watch trailer now</a>
+                          </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="http://nitehawkcinema.files.wordpress.com/2013/05/1238490.jpg" alt="">
+                            <span class="movie-list-item-title">Best in show</span>
+                            <p class="movie-list-item-desc">Best in Show is a 2000 American mockumentary comedy film and spoof of American dog shows, co-written by Christopher Guest and Eugene Levy and directed by Guest.</p>
+                            <a href="https://youtu.be/94y9n9lNy2Y" class="movie-list-item-button">Watch trailer now</a>
+    </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://avatars.mds.yandex.net/get-ott/224348/2a000001626d3bfd64104ee81e873a01e8ce/678x380" alt="">
+                            <span class="movie-list-item-title">Deadpool</span>
+                            <p class="movie-list-item-desc">Wade Wilson is a mercenary. As a byproduct of a military program called "Weapon X," Wilson has gained incredible strength, agility, and healing powers.</p><a href="https://youtu.be/ONHBaC-pfsk" class="movie-list-item-button">Watch trailer now</a>
+      </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/" alt="">
+                            <span class="movie-list-item-title">Best in show</span>
+                            <p class="movie-list-item-desc">Best in Show is a 2000 American mockumentary comedy film and spoof of American dog shows, co-written by Christopher Guest and Eugene Levy and directed by Guest.</p>
+                            <a href="https://youtu.be/xOsLIiBStEs" class="movie-list-item-button">Watch trailer now</a>
+         </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/" alt="">
+                            <span class="movie-list-item-title">Kazakh business</span>
+                            <p class="movie-list-item-desc">Zhomart is an ordinary businessman who owns a hotel and soon has a new turnover and new breath in his business - a big investor is interested in his project.</p>
+                            <button class="movie-list-item-button">Watch trailer now</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 onmouseover="style.color='green'" onmouseout="style.color='white'" class="movie-list-title">Best movies of 2021</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://beyondtheposts.net/wp-content/uploads/2022/01/Spider-Man-No-Way-Home.jpg" alt="">
+                            <span class="movie-list-item-title">Spider-man: No way home</span>
+                            <p class
+
+="movie-list-item-desc">Peter Parker's life and reputation are threatened as Mysterio reveals Spider-Man's secret identity to the world...</p>
+                            <a href="https://youtu.be/JfVOs4VSpmA" class="movie-list-item-button">Watch trailer now</a>
+    </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://itc.ua/wp-content/uploads/2021/05/oblozhka-11.jpg" alt="">
+                            <span class="movie-list-item-title">Cruella</span>
+                            <p class="movie-list-item-desc">The long-awaited Disney premiere. Would you like to know more about Cruella De Vil?</p>
+<a href="https://youtu.be/gmRKv7n2If8lton" class="movie-list-item-button">Watch trailer now</a>
+
+       </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://www.film.ru/sites/default/files/styles/thumb_685x385/public/trailers_frame/house_of_gucci.jpg" alt="">
+                            <span class="movie-list-item-title">House of Gucci</span>
+                            <p class="movie-list-item-desc">The name Gucci sounded so sweet, so seductive... Synonymous with luxury, style, power.</p>
+<a href="https://youtu.be/pGi3Bgn7U5U" class="movie-list-item-button">Watch trailer now</a>
+
+
+            </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://ntvb.tmsimg.com/assets/p18793859_v_h8_aa.jpg?w=1280&h=720" alt="">
+                            <span class="movie-list-item-title">Cinderella</span>
+                            <a href="https://youtu.be/T1NeHRuPpoM" class="movie-list-item-button">Watch trailer now</a>
+    <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://i.ytimg.com/vi/mQLJP2wJLbw/maxresdefault.jpg" alt="">
+                            <span class="movie-list-item-title">To all the boys</span>
+                            <p class="movie-list-item-desc">The last school year of high school begins. Lara Jin returns from a family trip to Korea and contemplates which university to attend, with or without Peter.</p>
+                            <a href="https://youtu.be/2jPdejek5QA" class="movie-list-item-button">Watch trailer now</a>
+          </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="images/" alt="">
+                            <span class="movie-list-item-title">Spider Man: No Way Home</span>
+                            <p class="movie-list-item-desc">Peter Parker's life and reputation are threatened as Mysterio reveals Spider-Man's secret identity to the world..</p>
+                            <button class="movie-list-item-button">Watch trailer now</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">House of Gucci</span>
+                            <p class="movie-list-item-desc">The name Gucci sounded so sweet, so seductive... Synonymous with luxury, style, power.</p>
+                            <button class="movie-list-item-button">Watch trailer now</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
+
+
+    <script>
+
+
+    function myFunction(x) {
+      x.classList.toggle("fa-thumbs-down");
+    }
+
+ const ball = document.querySelector(".toggle-ball");
+ const items = document.querySelectorAll(
+   ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle"
+ );
+
+ ball.addEventListener("click",()=>{
+   items.forEach(item=>{
+     item.classList.toggle("active")
+   })
+ });
+
+</script>
+</body>
+
+</html>
